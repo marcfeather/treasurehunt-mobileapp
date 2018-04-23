@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="api-client-1.6.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.recombee/api-client/1.6.2/e6f37551566e3bd065c46d6c1671d0ec5f790275/api-client-1.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.recombee/api-client/1.6.2/83ea2b736aacb7cdf079fc34a0d426c060fd1b10/api-client-1.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

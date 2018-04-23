@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">215530775351-tou52hajij6o7rjl28ccru6svlk2ucj1.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://treasurehunt-3540e.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">215530775351</string>
+    <string name="google_api_key" translatable="false">AIzaSyBPWLX1KxURj37-dkoEVbmlA_Zj0IvLxp8</string>
+    <string name="google_app_id" translatable="false">1:215530775351:android:ac921438e922b554</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBPWLX1KxURj37-dkoEVbmlA_Zj0IvLxp8</string>
+    <string name="google_storage_bucket" translatable="false">treasurehunt-3540e.appspot.com</string>
+    <string name="project_id" translatable="false">treasurehunt-3540e</string>
+</resources>

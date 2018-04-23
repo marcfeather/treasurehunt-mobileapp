@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#3e3e3e"
+    android:textColor="#fff">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="27dp"
+        app:srcCompat="@drawable/categorieslogo" />
+
+    <TextView
+        android:id="@+id/treasureinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Choose a category to filter treasures by... "
+        android:textColor="@color/colorAccent" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/treasureinfo">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#fff"
+            android:text="Landmark"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb1"
+            android:buttonTint="#fff"
+            android:text="Food and drink"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb2"
+            android:buttonTint="#fff"
+            android:text="Market"
+            android:textColor="#fff" />
+
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb3"
+            android:buttonTint="#fff"
+            android:text="Museum"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/rb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb4"
+            android:buttonTint="#fff"
+            android:text="Park"
+            android:textColor="#fff" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonfilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginTop="26dp"
+        android:background="#cc8f14"
+        android:shadowColor="#232323"
+        android:text="Filter"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</RelativeLayout>

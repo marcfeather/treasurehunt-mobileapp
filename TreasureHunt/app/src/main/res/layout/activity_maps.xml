@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.th.monicadzhaleva.treasurehunt.Activities.MapsActivity" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-20dp"
+        android:alpha="0.9"
+        android:background="@color/colorPrimary"
+        android:elevation="1dp"
+        android:label=""
+        android:theme="@style/AppTheme"
+        android:visibility="visible"></android.support.v7.widget.Toolbar>
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="50dp"
+        android:scrollbars="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/usergreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/arrowDown"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:elevation="2dp"
+        android:text="Hello, User!"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level : "
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:elevation="2dp"
+        android:layout_alignBaseline="@+id/usergreeting"
+        android:layout_alignBottom="@+id/usergreeting"
+        android:layout_toRightOf="@+id/usergreeting"
+        android:layout_toEndOf="@+id/usergreeting"
+        android:layout_marginLeft="15dp"
+         />
+
+    <TextView
+        android:id="@+id/experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/usergreeting"
+        android:layout_alignBottom="@+id/usergreeting"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="90dp"
+        android:elevation="2dp"
+        android:text="Experience: "
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/avatarView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-5dp"
+        android:layout_alignLeft="@+id/usergreeting"
+        android:layout_alignStart="@+id/usergreeting"
+        android:layout_alignTop="@+id/huntButton"
+        android:translationZ="5dp" />
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/usergreeting"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/circle" />
+    <ImageButton
+        android:id="@+id/huntButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/avatarView"
+        android:layout_toRightOf="@+id/avatarView"
+        android:background="@drawable/button_hunt"
+        android:contentDescription="hunt"
+        android:elevation="2dp" />
+
+
+</RelativeLayout>

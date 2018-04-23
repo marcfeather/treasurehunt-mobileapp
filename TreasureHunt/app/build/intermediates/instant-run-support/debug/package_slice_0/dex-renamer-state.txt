@@ -1,0 +1,4 @@
+#Wed Mar 14 11:47:12 GMT 2018
+base.0=/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
+renamed.0=classes.dex
+file.0=/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex

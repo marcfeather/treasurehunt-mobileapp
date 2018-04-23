@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "215530775351",
+    "firebase_url": "https://treasurehunt-3540e.firebaseio.com",
+    "project_id": "treasurehunt-3540e",
+    "storage_bucket": "treasurehunt-3540e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215530775351:android:ac921438e922b554",
+        "android_client_info": {
+          "package_name": "com.th.monicadzhaleva.treasurehunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215530775351-sr61bn063jefd6tcjlkjm7uasfs03cn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.th.monicadzhaleva.treasurehunt",
+            "certificate_hash": "4cd7f4e857b61872ad4eb0434b195486696a6805"
+          }
+        },
+        {
+          "client_id": "215530775351-67lcnlku74jjvuq8m5lsnjlqljpfe1dn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.th.monicadzhaleva.treasurehunt",
+            "certificate_hash": "41fd06361b946f5bed846fe70842c42f6a981c1b"
+          }
+        },
+        {
+          "client_id": "215530775351-e31m3r5v2h6p0siamcjm8a90qgka1ugd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.th.monicadzhaleva.treasurehunt",
+            "certificate_hash": "55a63b1187c3f12362a6f83fdfacddc01a1edd8e"
+          }
+        },
+        {
+          "client_id": "215530775351-tou52hajij6o7rjl28ccru6svlk2ucj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPWLX1KxURj37-dkoEVbmlA_Zj0IvLxp8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215530775351-tou52hajij6o7rjl28ccru6svlk2ucj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

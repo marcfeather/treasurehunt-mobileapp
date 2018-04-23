@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/overflow"
+        android:icon="@drawable/menu"
+        android:orderInCategory="201"
+        android:title="Menu"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/userprofile"
+                android:title="User profile"
+                android:icon="@drawable/user"
+                />
+            <item android:id="@+id/messages"
+                android:title="My messages"
+                android:icon="@drawable/messages"
+                />
+
+            <item android:id="@+id/categories"
+                android:title="Categories"
+                android:icon="@drawable/categories"
+                />
+
+            <item android:id="@+id/recommendations"
+                android:title="Recommendations"
+                android:icon="@drawable/recommendations"
+                />
+
+            <item android:id="@+id/ranking"
+                android:title="Leaderboard"
+                android:icon="@drawable/ranking"
+                />
+
+            <item android:id="@+id/treasuresfeedback"
+                android:title="Treasures Feedback"
+                android:icon="@drawable/feedback"
+                />
+
+            <item android:id="@+id/logout"
+                android:title="Log out"
+                android:icon="@drawable/logout"
+                />
+        </menu>
+    </item>
+
+
+</menu>

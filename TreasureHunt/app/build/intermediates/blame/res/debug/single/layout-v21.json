@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/monicadzhaleva/.android/build-cache/8c59831a459f73516a8fa03348c06a4cb9d17e85/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/monicadzhaleva/.android/build-cache/8c59831a459f73516a8fa03348c06a4cb9d17e85/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/monicadzhaleva/.android/build-cache/8c59831a459f73516a8fa03348c06a4cb9d17e85/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/monicadzhaleva/.android/build-cache/8c59831a459f73516a8fa03348c06a4cb9d17e85/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

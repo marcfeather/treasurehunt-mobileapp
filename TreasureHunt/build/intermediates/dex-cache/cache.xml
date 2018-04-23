@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c7313bb2d7143886c04bb5eff1f876863b941c1">
+        <dex dex="/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0ff25ffba96d72c3a214851e3bae30d25ba9fe49/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e851587a5d45104e1ec64c49315a76da3926638/classes.dex" />
+    </item>
+
+</items>

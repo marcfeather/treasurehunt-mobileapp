@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#3e3e3e"
+    android:textColor="#fff">
+
+    <ImageView
+        android:id="@+id/imageViewTreasure"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/treasureName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewTreasure"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/treasureInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/treasureName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/treasureOwnerInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/treasureInfo"
+        android:layout_marginTop="10dp"
+        android:text="Owner"
+        android:layout_marginLeft="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/treasureOwnerInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/treasureOwnerInfo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/treasureClanInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/treasureOwnerInfoText"
+        android:layout_marginTop="10dp"
+        android:text="Owner clan"
+        android:layout_marginLeft="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="21sp" />
+
+    <ListView
+        android:id="@+id/treasureClanInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/treasureClanInfo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Owner clan"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buttonCollect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cc8f14"
+        android:shadowColor="#232323"
+        android:text="Collect"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/treasureClanInfoText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

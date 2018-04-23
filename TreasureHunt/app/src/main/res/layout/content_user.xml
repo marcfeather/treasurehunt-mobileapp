@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.th.monicadzhaleva.treasurehunt.Activities.UserActivity"
+    tools:showIn="@layout/activity_user">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/usernameinfo"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="Username"
+                android:textColor="#ffe521"
+                android:textSize="18sp"
+                android:layout_gravity="left"
+                />
+
+            <TextView
+                android:id="@+id/usernameinfovalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="Username Value"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/usernameinfo"
+                android:layout_toEndOf="@+id/usernameinfo" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/firstNameinfovalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="First Name Value"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/firstnameinfo"
+                android:layout_toEndOf="@+id/firstnameinfo" />
+
+            <TextView
+                android:id="@+id/firstnameinfo"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="First Name"
+                android:textColor="#ffe521"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/lastNameinfo"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="Last Name"
+                android:textColor="#ffe521"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/lastNameinfovalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="Last Name Value"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/lastNameinfo"
+                android:layout_toEndOf="@+id/lastNameinfo" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/levelinfo"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="Level"
+                android:textColor="#ffe521"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/levelinfovalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="Level Value"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/levelinfo"
+                android:layout_toEndOf="@+id/levelinfo"
+                android:layout_marginLeft="15dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/experienceinfo"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="Experience"
+                android:textColor="#ffe521"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/experienceinfovalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="Experience Value"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/experienceinfo"
+                android:layout_toEndOf="@+id/experienceinfo"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/clanTextContainer">
+            <TextView
+                android:id="@+id/clanText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="10dp"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="Clan"
+                android:textColor="#30bdff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/clanContainer"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            >
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/individualClanList"></ListView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/collectedTreasures">
+            <TextView
+                android:id="@+id/collectedTreasuresText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="10dp"
+                android:background="#3e3e3e"
+                android:padding="15dp"
+                android:text="Collected Treasures"
+                android:textColor="#30bdff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/collectedTreasuresContainer"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collicon"
+                android:layout_marginLeft="200dp"
+                android:alpha="0.3"
+                />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

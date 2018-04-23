@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    }
+]

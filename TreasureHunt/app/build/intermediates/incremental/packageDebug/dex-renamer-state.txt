@@ -1,0 +1,7 @@
+#Mon Apr 23 20:51:56 BST 2018
+base.0=/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0ff25ffba96d72c3a214851e3bae30d25ba9fe49
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e851587a5d45104e1ec64c49315a76da3926638/classes.dex
+base.1=/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e851587a5d45104e1ec64c49315a76da3926638
+file.0=/Users/monicadzhaleva/AndroidStudioProjects/TreasureHunt/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0ff25ffba96d72c3a214851e3bae30d25ba9fe49/classes.dex
